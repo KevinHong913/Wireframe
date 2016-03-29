@@ -1,0 +1,119 @@
+body {
+	padding-top: 100px;
+	/*padding-bottom: 30px;*/
+}
+
+.navbar {
+	background-color: #000000;
+	height: 65px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+.user-navbar-list ul li a {
+	font-size: 15px;
+}
+
+.navbar .navbar-header a {
+	padding: 0;
+}
+
+.nav-bar {
+	margin-bottom: 20px;
+}
+
+.navbar-title {
+	color: #FFFFFF;
+	margin-left: 40px;
+	font-size: 25px;
+	letter-spacing: 2px;
+}
+
+.feature-img img {
+	display: block;
+	margin: 0 auto;
+}
+
+.gallery-container {
+	margin-top: 30px;
+}
+
+.gallery-search {
+	margin-left: 15px;
+}
+
+.gallery-body {
+	margin-top: 30px;
+}
+
+.gallery-item-panel {
+	padding: 0 15px;
+	display: block;
+	margin: 20px auto;
+	width: 100%;
+}
+
+.gallery-img-wrapper {
+	position: relative;
+  display:block;
+}
+
+.gallery-img-wrapper img {
+	z-index: 1;
+}
+
+.gallery-img-text {
+	position: absolute;
+	top: 0;
+	color: #050505;
+	padding: 15px 5% 0 5%;
+	font-size: 16px;
+	background-color: rgba(240,240,240,0.8);
+	height: 100%;
+	width: 100%;
+	/*line-height: 100px;*/
+	text-align: center;
+	z-index: 10;
+	opacity: 0;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.gallery-img-text:hover {
+	opacity:1;
+}
+
+.gallery-item-status span {
+	margin-top: 5px;
+	font-size: 16px;
+}
+
+.gallery-filter .navbar {
+	background-color: transparent;
+}
+
+#main {
+	padding-bottom: 50px;
+}
+
+#main {
+	min-height: 600px;
+
+}
+#footer {
+	padding-top: 15px;
+	position: relative;
+  width: auto;
+  height: 50px;
+  left: auto;
+  bottom: auto;
+  padding-bottom: 0;
+	background-color: rgb(233, 233, 233);
+}
+
+
+
+
